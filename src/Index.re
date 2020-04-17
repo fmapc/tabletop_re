@@ -1,4 +1,3 @@
-// Entry point
 [@bs.val] external document: Js.t({..}) = "document";
 let app_container = document##getElementById("main");
 

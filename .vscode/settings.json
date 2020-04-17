@@ -1,9 +1,9 @@
 {
   "files.exclude": {
     "node_modules/": true,
-    "**/*.bs.js": true,
     ".bsb.lock": true,
     ".merlin": true,
+    "**/*.bs.js": true,
     "dist/": true,
     "lib/": true
   },
