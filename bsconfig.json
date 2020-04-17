@@ -16,6 +16,12 @@
   ],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": ["reason-react", "bs-css", "bs-css-emotion"],
+  "bs-dependencies": [
+    "@moox/bs-react-helmet",
+    "bs-css",
+    "bs-css-emotion",
+    "reason-react",
+    "re-classnames"
+  ],
   "refmt": 3
 }

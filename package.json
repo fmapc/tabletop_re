@@ -16,9 +16,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@moox/bs-react-helmet": "^2.1.0",
     "bs-css-emotion": "^1.2.0",
+    "re-classnames": "^4.1.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-helmet": "^6.0.0",
     "reason-react": ">=0.7.0"
   },
   "devDependencies": {
