@@ -1,10 +1,11 @@
 {
   "files.exclude": {
-    "lib/": true,
     "node_modules/": true,
     "**/*.bs.js": true,
     ".bsb.lock": true,
-    ".merlin": true
+    ".merlin": true,
+    "dist/": true,
+    "lib/": true
   },
   "javascript.validate.enable": false
 }

@@ -2,7 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Development Mode</title>
+    <title>Development Server</title>
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/assets/css/critical.css" />
   </head>
   <body>
     <script>
@@ -13,7 +20,7 @@
         },
       };
     </script>
-
+    <div id="main"></div>
     <!-- This is https://github.com/marijnh/moduleserve, the secret sauce that allows us not need to bundle things during development, and have instantaneous iteration feedback, without any hot-reloading or extra build pipeline needed. -->
     <script src="/moduleserve/load.js" data-module="/src/Index.bs.js"></script>
     <!-- Our little watcher. Super clean. Check it out! -->
