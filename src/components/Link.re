@@ -7,7 +7,7 @@ module Styles = {
 [@react.component]
 let make = (~className, ~href, ~children) =>
   <a
-    className={Cn.make([className, Styles.base])}
+    className={[className, Styles.base] |> Cn.make}
     href
     onClick={event => {
       ReactEvent.Mouse.preventDefault(event);
