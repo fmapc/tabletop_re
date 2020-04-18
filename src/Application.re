@@ -1,5 +1,5 @@
 module Helmet = {
-  let applyPrefix = contents => "Tabletop | " ++ contents;
+  let applyPrefix = contents => Core.Config.title ++ " | " ++ contents;
 
   let computeTitle = (url: ReasonReactRouter.url) =>
     switch (url.path) {

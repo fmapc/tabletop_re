@@ -3,10 +3,17 @@
   "reason": {
     "react-jsx": 3
   },
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
   "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
   "package-specs": [
     {
@@ -21,7 +28,9 @@
     "bs-css",
     "bs-css-emotion",
     "reason-react",
-    "re-classnames"
+    "re-classnames",
+    "@glennsl/bs-jest",
+    "bs-enzyme"
   ],
   "refmt": 3
 }
