@@ -4,9 +4,9 @@ var React = require("react");
 var ReactDom = require("react-dom");
 var Application$Tabletop = require("./containers/Application.bs.js");
 
-var app_container = document.getElementById("main");
+var appContainer = document.getElementById("main");
 
-ReactDom.render(React.createElement(Application$Tabletop.make, { }), app_container);
+ReactDom.render(React.createElement(Application$Tabletop.make, { }), appContainer);
 
-exports.app_container = app_container;
-/* app_container Not a pure module */
+exports.appContainer = appContainer;
+/* appContainer Not a pure module */

@@ -1,4 +1,4 @@
 [@bs.val] external document: Js.t({..}) = "document";
-let app_container = document##getElementById("main");
+let appContainer = document##getElementById("main");
 
-ReactDOMRe.render(<Application />, app_container);
+ReactDOMRe.render(<Application />, appContainer);
