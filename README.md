@@ -15,6 +15,7 @@ Older versions of the below may work but I haven't tested
 - `yarn start` starts watching and building code
 - `yarn server` starts dev server
 - `yarn test` runs unit tests
+- `yarn test:watch` watched test output
 - `yarn build` generates a deployable bundle at `/dist`
 - `yarn server:prod` serves prod bundle so you can test it locally
 - `yarn clean` will get rid of any dev artefacts in case you're in a bad state
